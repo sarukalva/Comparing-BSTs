@@ -13,4 +13,5 @@ Note: All trees are printed using a preorder DFS traversal.
 
 The average static competitive ratio over 10 runs for each algorithm reveals that relative to the off-line algorithm that I implemented as the Optimal BST, the Dynamic Monotone Tree has the lowest ratio. It is better than Splay Tree and Single Rotation, which end up having very similar costs (Figure 2) and a similar static competitive ratio (Figure 1), as evidenced in the tables below (Figure 3). Cost was defined as 1+depth+number of rotations in the online algorithms. 
 
-![Figure 3: Table of the cost of the key access sequence for each tree.](https://github.com/sarukalva/Comparing-BSTs/blob/master/Figure%203.png)
+![Figure 3](https://github.com/sarukalva/Comparing-BSTs/blob/master/Figure%203.png)
+Figure 3: Table of the cost of the key access sequence for each tree.
